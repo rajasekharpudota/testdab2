@@ -50,7 +50,7 @@ tr:nth-child(even) {
   </table>	
 	<script>
 	$(document).ready(function(){
-var url  = "https://localhost:5001/rest/Invoices?$first=5";
+var url  = "/data-api/rest/Invoices?$first=5";
 $.getJSON(url, function( data ) {
 	console.log(data);
     var obj = data['value'];
