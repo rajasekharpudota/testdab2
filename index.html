@@ -14,7 +14,7 @@
 
 <body>
 	<div class="container">		
-		<h1>Customers List</h1>		
+		<h1>Invoices List</h1>		
         <div id="#books">
             <ul class="list-group">                
             </ul>
@@ -23,7 +23,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous"></script>
     <script>
         async function loadBooks() {
-            var url = "/data-api/rest/Customers?$first=5"
+            var url = "/data-api/rest/invoices?$first=5"
             var response = await fetch(url) 
             var payload = await response.json();   
             return payload.value;
@@ -32,8 +32,8 @@
         $(function() {
             loadBooks().then(result => {                 
                 var ul = $("ul");
-                result.forEach(book => {
-                    var li = $(`<li class='list-group-item'>${book.CustomerID}</li>`);
+                result.forEach(invoice => {
+                    var li = $(`<li class='list-group-item'>${invoice.InvoiceId},${invoice.InvoiceDate},${invoice.BillingCountry}</li>`);
                     ul.append(li);
                 });
             } );
