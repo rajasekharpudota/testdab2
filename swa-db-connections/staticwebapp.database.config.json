@@ -33,6 +33,17 @@
           ]
         }
       ]
+    },
+    "Invoices": {
+      "source": "invoices",
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            "*"
+          ]
+        }
+      ]
     }
   }
 }
