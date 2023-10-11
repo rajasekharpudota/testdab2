@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "rewrite": "/index.html"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+    "globalHeaders": {
+        "Access-Control-Allow-Origin": "https://example.com",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
+    }
+}
