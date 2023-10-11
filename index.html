@@ -27,7 +27,7 @@
     </div>
     <div class="float-child red">
       <h4>Add Invoice Details</h4>
-      <form name="myForm" action="" onsubmit="return addDetails(this)" method="post">
+      <form name="myForm" method="post">
         <div class="form-row">
           <br>
           <label for="CustomerId">Customer ID</label>
@@ -70,9 +70,7 @@
     </div>
       <div class="form-row mx-auto">
         <br>
-          <button type="submit" class="btn-submit" id="btnSubmit">
-          Submit
-          </button>
+          <input type="submit" value="submit" onclick="return addDetails()" />
       </div>
       </form>
     </div>
