@@ -46,7 +46,7 @@ const chart = new Chart(ctx, {
 
 dummyChart()
 
-async function addDetails(form) {
+async function addDetails() {
   //console.log("in AddDetails")
   var CustomerId = document.getElementById('CustomerId').value;
   var BillingAddress = document.getElementById('BillingAddress').value;
@@ -68,7 +68,6 @@ async function addDetails(form) {
     },
     body: test
 });
-location.reload();
 
 }
 
