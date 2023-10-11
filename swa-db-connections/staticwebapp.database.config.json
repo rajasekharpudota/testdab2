@@ -36,6 +36,12 @@
     },
     "Invoices": {
       "source": "invoices",
+      "rest":{
+        "methods":["GET","POST"]
+      },
+      "graphql":{
+        "operation":"query"
+      },
       "permissions": [
         {
           "role": "anonymous",
