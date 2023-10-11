@@ -68,6 +68,7 @@ async function addDetails(form) {
     },
     body: test
 });
+location.reload();
 }
 
 //Fetch Data from API
