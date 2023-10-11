@@ -17,7 +17,7 @@
     "host": {
       "mode": "production",
       "cors": {
-        "origins": [],
+        "origins": ["*"],
         "allow-credentials": false
       }
     }
@@ -36,6 +36,26 @@
     },
     "Invoices": {
       "source": "invoices",
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "GetInvoiceCountCountryWise": {
+      "source": {
+	    "object": "GetInvoiceCountCountryWise",
+		"type":"stored-procedure"
+	  },
+	  "rest":{
+	    "methods":["GET"]
+	  },
+	  "graphql":{
+	    "operation":"query"
+	  },
       "permissions": [
         {
           "role": "anonymous",

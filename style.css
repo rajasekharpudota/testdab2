@@ -1,0 +1,27 @@
+.m-5{
+max-width: 500px;
+}
+
+.container{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+
+
+.float-container {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  border: 1px;
+}
+
+.invoice-info{
+  margin-left: 20%;
+}
