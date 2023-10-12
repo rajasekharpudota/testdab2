@@ -15,7 +15,7 @@
       "path": "/graphql"
     },
     "host": {
-      "mode": "production",
+      "mode": "development",
       "cors": {
         "origins": ["*"],
         "allow-credentials": false
