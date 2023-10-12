@@ -10,9 +10,5 @@
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
       "headers": ""
     }
-  ],
-  "globalHeaders": {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
-  }
+  ]
 }
