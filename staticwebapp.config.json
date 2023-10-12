@@ -1,16 +1,13 @@
 {
-  "trailingSlash": "auto",
   "routes": [
     {
       "route": "/api/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
       "headers": ''
-    },
     {
       "route": "/data-api/rest/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
       "headers": ''
-      }
     }
   ],
   "globalHeaders": {
