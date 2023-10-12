@@ -3,11 +3,11 @@
   "routes": [
     {
       "route": "/api/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE"]
+      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
     },
     {
       "route": "/data-api/rest/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE"]
+      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
     }
   ],
   "globalHeaders": {
