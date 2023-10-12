@@ -1,4 +1,15 @@
 {
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/api/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE"]
+    },
+    {
+      "route": "/data-api/rest/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE"]
+    }
+  ],
   "globalHeaders": {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
