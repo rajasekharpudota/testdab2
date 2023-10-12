@@ -7,7 +7,7 @@
         {
       "route": "/data-api/rest/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
-    },
+    }
     ],
     "navigationFallback": {
         "rewrite": "/index.html"
