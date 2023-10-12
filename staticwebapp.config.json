@@ -5,7 +5,7 @@
       "route": "/api/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
       "headers": {
-              "Access-Control-Allow-Origin": "[*]",
+              "Access-Control-Allow-Origin": "*",
               "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
       }
     },
@@ -13,13 +13,13 @@
       "route": "/data-api/rest/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
       "headers": {
-              "Access-Control-Allow-Origin": "[*]",
+              "Access-Control-Allow-Origin": "*",
               "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
       }
     }
   ],
   "globalHeaders": {
-    "Access-Control-Allow-Origin": "[*]",
+    "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
   }
 }
