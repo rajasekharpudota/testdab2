@@ -17,8 +17,7 @@
     "host": {
       "mode": "development",
       "cors": {
-        "origins": ["*"],
-        "allow-credentials": false
+        "origins": ["*"]
       }
     }
   },
