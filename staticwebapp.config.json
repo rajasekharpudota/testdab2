@@ -14,7 +14,7 @@
     }
   ],
   "globalHeaders": {
-    "Access-Control-Allow-Origin": "https://editor.swagger.io",
-    "Access-Control-Allow-Methods": "GET, POST, PUT"
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS"
   }
 }
