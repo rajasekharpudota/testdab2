@@ -2,7 +2,6 @@
   "routes": [
     {
       "route": "/api/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
        "headers":{
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "*",
@@ -12,7 +11,15 @@
     },
     {
       "route": "/data-api/rest/GetInvoiceCountCountryWise",
-      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
+      "headers":{
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Credentials": "false"
+    }
+    },
+    {
+      "route": "/data-api/rest/openapi",
       "headers":{
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "*",
