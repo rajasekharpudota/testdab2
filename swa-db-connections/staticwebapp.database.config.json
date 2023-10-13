@@ -9,8 +9,7 @@
   },
   "runtime": {
     "rest": {
-      "path": "/rest",
-      "methods":["GET","POST"]
+      "path": "/rest"
     },
     "graphql": {
       "path": "/graphql"
