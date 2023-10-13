@@ -17,7 +17,8 @@
     "host": {
       "mode": "development",
       "cors": {
-        "origins": ["https://editor.swagger.io"]
+        "origins": ["*"],
+	"allow-credentials": true     
       }
     }
   },
