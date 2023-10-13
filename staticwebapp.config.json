@@ -5,7 +5,7 @@
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
     },
     {
-      "route": "/data-api/rest/*",
+      "route": "/data-api/rest/GetInvoiceCountCountryWise",
       "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
     }
   ],
