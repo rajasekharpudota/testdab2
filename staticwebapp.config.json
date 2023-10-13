@@ -2,13 +2,15 @@
   "routes": [
     {
       "route": "/api/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
-      "headers": ""
+      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
+    },
+    {
+      "route": "/api/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
     },
     {
       "route": "/data-api/rest/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"],
-      "headers": ""
+      "methods": ["PUT", "POST", "PATCH", "DELETE","GET"]
     }
   ],
   "globalHeaders": {
